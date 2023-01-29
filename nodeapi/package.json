@@ -2,9 +2,9 @@
   "name": "nodeapi",
   "version": "1.0.0",
   "description": "A node Js API",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "node",
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.20"
   }
 }
